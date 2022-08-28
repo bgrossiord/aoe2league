@@ -1,0 +1,20 @@
+{
+  "name": "aoe2league",
+  "version": "1.0.0",
+  "description": "Glicko 2 ranking system for age of empire",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stats": "node stats",
+    "rank": "node ranking"
+  },
+  "author": "bgrossiord",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^16.0.1",
+    "glicko2": "^0.8.4",
+    "googleapis": "^39.2.0",
+    "querystring": "^0.2.0"
+  }
+}

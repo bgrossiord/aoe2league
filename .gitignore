@@ -1,0 +1,5 @@
+node_modules
+players.json
+matches/*
+credentials.json
+token.json
